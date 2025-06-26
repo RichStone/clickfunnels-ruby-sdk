@@ -48,6 +48,14 @@ The SDK provides dynamic access to all ClickFunnels API endpoints following the 
 
 ### Basic CRUD Operations
 
+First initialize the client:
+
+```ruby
+ClickFunnels.new
+```
+
+Then Make calls through the CF workspace:
+
 ```ruby
 # List resources
 CF::Orders::Invoice.list
