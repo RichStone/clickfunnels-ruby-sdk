@@ -73,6 +73,10 @@ CF::Orders::Invoice.update(123, status: "paid")
 CF::Orders::Invoice.delete(123)
 ```
 
+### Usage Examples
+
+Real-life usage examples here: https://github.com/RichStone/funnels-on-rails
+
 ### 🆕 Workspace-Nested Resources
 
 ```ruby
